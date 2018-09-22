@@ -1,0 +1,10 @@
+bin/
+gen/
+obj/
+build/
+repos/
+.gradle/
+.settings/
+.swp
+__MACOSX
+

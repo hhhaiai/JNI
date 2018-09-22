@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cn.jni.a.MainActivity" >
+    tools:context="cn.jni.fk.MainActivity" >
 
     <TextView
          android:id="@+id/text"
@@ -14,5 +14,22 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="Test" />
+
+    <Button
+        android:id="@+id/unreal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="37dp"
+        android:text="Unreal" />
+
 </RelativeLayout>

@@ -1,0 +1,3 @@
+# 基于xposed改造后的app_process，这个东东是Android系统启动的入口，也是由他负责启动java 虚拟机
+
+尴尬的是这个工程和当前dalvik版本不一致。不过不影响主流程了

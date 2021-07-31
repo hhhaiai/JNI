@@ -15,11 +15,11 @@
  */
 package com.example.hellojni;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class HelloJni extends AppCompatActivity {
+public class HelloJni extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
